@@ -1,0 +1,16 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #EEEEEE !important;
+}
+
+.container{
+    background-color: #EEEEEE !important;
+}
+.form{
+background-color: white;
+z-index: 3;
+border:.2rem solid #EEEEEE;
+border-top-color: #FAFF00;
+
+}

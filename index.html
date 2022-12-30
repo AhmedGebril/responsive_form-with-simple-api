@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets\style\bootstrap.min.css">
+    <link rel="stylesheet" href="assets\style\all.min.css">
+    <link rel="stylesheet" href="assets\style\main.css">
+</head>
+
+<body>
+    <div class="container py-5 px-5">
+        <div class="w-50 p-5 m-auto form">
+            <h1 class="text-dark text-center fs-1 mb-5">Responsive Registration Form</h1>
+            <form>
+                <div id="error">
+
+                </div>
+                <div class="input-group mb-3">
+                    <div class="p-2 border">
+                        <i class="fa-solid fa-envelope fa-lg "></i>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email" aria-label="Username"
+                        aria-describedby="basic-addon1" id="Email">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="p-2 border">
+                        <i class="fa-solid fa-lock fa-lg"></i>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" aria-label="Username"
+                        aria-describedby="basic-addon1" id="password">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="p-2 border">
+                        <i class="fa-solid fa-lock fa-lg"></i>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Re-Type Password" aria-label="Username"
+                        aria-describedby="basic-addon1" id="RePassword">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="p-2 border">
+                        <i class="fa-solid fa-user fa-lg"></i>
+                    </div>
+                    <input type="text" class="form-control me-5" placeholder="FirstName" aria-label="Username"
+                        aria-describedby="basic-addon1" id="FirstName">
+                    <div class="p-2 border">
+                        <i class="fa-solid fa-user fa-lg"></i>
+                    </div>
+                    <input type="text" class="form-control" placeholder="LastName" aria-label="Username"
+                        aria-describedby="basic-addon1" id="LastName">
+                </div>
+                <div class="check-buttons py-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Gender_male" id="Male">
+                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Gender_female" id="Female">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected value="">Select a country...</option>
+                    <option value="1">Egypt</option>
+                    <option value="2">USA</option>
+                    <option value="3">India</option>
+                </select>
+                <div class="py-3">
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="1" id="Check1">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    I agree on terms and conditions
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Check2" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                    I want to receive the newsletter
+                    </label>
+                </div>
+                </div>
+            </form>
+            <button type="button" class="btn btn-warning w-100 text-white" onclick="verify()">Register</button>
+        </div>
+    </div>
+    <script src="assets\js\index.js"></script>
+</body>
+
+</html>
